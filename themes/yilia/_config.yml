@@ -71,7 +71,7 @@ favicon: /assets/blogImg/favicon.ico
 avatar: /assets/blogImg/head.jpg
 
 #是否开启分享
-share_jia: true
+share_jia: false
 
 #评论：1、多说；2、网易云跟帖；3、畅言；4、Disqus；5、Gitment
 #不需要使用某项，直接设置值为false，或注释掉
@@ -135,4 +135,4 @@ smart_menu:
 #  友情链接5: http://localhost:4000/
 #  友情链接6: http://localhost:4000/
 
-aboutme: ID：Sschteng<br><br>为什么不折腾呢？<br>如果现实有趣的话<br><br>赶快去相信自己吧<br>这个博主嘴里没一句实话<br><br>联系方式：<br>Gmail：sschteng@gmail.com
+aboutme: ID：sschteng<br><br>一个94年的三线城市青年<br>对世界有着好奇心<br><br>就在这样吧<br><br>联系方式：<br>Gmail：sschteng@gmail.com
