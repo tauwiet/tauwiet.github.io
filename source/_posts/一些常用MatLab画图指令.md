@@ -7,7 +7,7 @@ tags:
 - 教程
 - MatLab
 ---
-![](\assets\images/180211_1.jpg)
+![](/assets/images/180211_1.jpg)
 最近用到一些MATLAB画图命令，每次都查还是有些麻烦，
 于是将用过的程序总结一下，记录于此。
 <!--more-->
@@ -26,8 +26,8 @@ y=abs(fft(x));
 plot(f,y);
 ```
 结果如图：
-![](\assets\images/180211_2.jpg)
-![](\assets\images/180211_3.jpg)
+![](/assets/images/180211_2.jpg)
+![](/assets/images/180211_3.jpg)
 
 因为频率图横坐标太宽，所以啥都看不出来，
 如果要调整一下曲线，只需在plot后面加上其他语句就行。
@@ -63,8 +63,8 @@ plot(f,y,'g','LineWidth',2);
 'b' 兰色 'w' 白色 'y' 黄色 'k' 黑色
 
 结果如图：
-![](\assets\images/180211_4.jpg)
-![](\assets\images/180211_5.jpg)
+![](/assets/images/180211_4.jpg)
+![](/assets/images/180211_5.jpg)
 
 将两种波形显示在一张图上subplot(行数，列数，序号数)；
 ```
@@ -74,7 +74,7 @@ subplot(2,1,1)
 plot(f,y,'g','LineWidth',2);
 ```
 
-![](\assets\images/180211_6.jpg)
+![](/assets/images/180211_6.jpg)
 
 将两种波形显示在一个坐标系内，只需在plot后加俩单词就行。
 ```

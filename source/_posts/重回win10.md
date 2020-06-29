@@ -6,7 +6,7 @@ date: 2018-11-28 15:38:46
 tags:
 - 随笔
 ---
-![](\assets\images\181128.jpg)
+![](/assets/images/181128.jpg)
 再一次重回win10，真是现实，哎呀真香。
 <!--more-->   
 

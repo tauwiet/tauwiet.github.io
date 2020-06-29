@@ -7,7 +7,7 @@ tags:
   - SS
 date: 2019-03-28 14:52:10
 ---
-![](\assets\images/190328_1.jpg)
+![](/assets/images/190328_1.jpg)
 搬瓦工下架所有OpenVZ的服务，不能再以之前的价格续费，既如此，换个供应商玩玩，记录下重新搭建Shadowsocks过程中出现的一些状况。
 <!--more-->
 Shadowsocks搭建于[Virmath](https://virmach.com/)上，最便宜的服务器每月仅需1.25美元，
@@ -26,7 +26,7 @@ pip install shadowsocks
 ```
 
 安装成功后显示:
-![](\assets\images/190328_2.jpg)
+![](/assets/images/190328_2.jpg)
 
 4 新建并配置shadowsocks.json
 ```bash
@@ -55,11 +55,11 @@ ssserver -c /etc/shadowsocks.json -d start
 ```
 
 成功后显示:
-![](\assets\images/190328_3.jpg)
+![](/assets/images/190328_3.jpg)
 
 后记：
 我在开启服务的时候发生了如下的错误，
-![](\assets\images/190328_4.jpg)
+![](/assets/images/190328_4.jpg)
 原因是openssl1.1.0版本中，废弃了EVP_CIPHER_CTX_cleanup函数。
 参考一篇[博客](https://blog.csdn.net/blackfrog_unique/article/details/60320737)所述，修改代码后，此问题得以解决。
 

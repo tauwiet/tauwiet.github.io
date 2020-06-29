@@ -7,7 +7,7 @@ tags:
 - 教程
 - SS
 ---
-![](\assets\images/180504_1.jpg)  
+![](/assets/images/180504_1.jpg)  
 迫于最近看有关速度特别差，就想着给我的SS服务加个速，
 网上的KCPTun加速写的看不懂，端口什么的叙述的很乱，
 花了1天时间终于成功试出来了，在此记录一下步骤。
@@ -113,7 +113,7 @@ chmod +x /etc/rc.local;echo "sh /root/kcptun/start.sh" >> /etc/rc.local
 
 ## windows端配置
 下载GUI版的KPCTun客户端，长这样：
-![](\assets\images/180504_2.jpg)  
+![](/assets/images/180504_2.jpg)  
 下载windows版KCPTun客户端，能解压出client_windows_amd64.exe和kcptun_gclient.exe文件，同linux版差别不大。
 将这三个文件放入同一文件夹，因为运行会自动产生额外配置文件。
 
@@ -126,7 +126,7 @@ chmod +x /etc/rc.local;echo "sh /root/kcptun/start.sh" >> /etc/rc.local
 完全依照服务器端的配置设置就行。
 
 点击启动，出现如下界面就行了。
-![](\assets\images/180504_3.jpg) 
+![](/assets/images/180504_3.jpg) 
 
 打开SS小飞机：
 IP地址：127.0.0.1；

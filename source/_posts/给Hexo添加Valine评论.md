@@ -20,13 +20,13 @@ date: 2020-01-13 21:03:28
 因为Valine是基于[LeanCloud](https://www.leancloud.cn/)的，所以我们需要先在官网上注册一个账号，如果只是想用Valine的评论功能，那这个LeanCloud可以简单看作为一个存储评论的仓库。
 
 1.注册成功后，进入控制台，随便创建一个应用；
-![](\assets\images/200113_1.jpg)
+![](/assets/images/200113_1.jpg)
 2.进入设置，点击左侧应用Keys，记录一下AppID和AppKey；
-![](\assets\images/200113_2.jpg)
+![](/assets/images/200113_2.jpg)
 3.点击左侧安全中心，因为只是用来存储评论，所以关掉其他功能；
-![](\assets\images/200113_3.jpg)
+![](/assets/images/200113_3.jpg)
 4.在下方Web安全域名处添加你的博客域名，防止记录到别的网站评论；
-![](\assets\images/200113_4.jpg)
+![](/assets/images/200113_4.jpg)
 5.在Hexo博客主题的配置文件_config.yml中添加如下代码；
 ``` bash
 valine: 
@@ -84,4 +84,4 @@ hexo d
 目前评论系统的头像是基于[Gravatar](http://cn.gravatar.com/)的，如果想使用自己的头像，需要自行注册，在评论的时候填写注册邮箱即可。
 
 默认的匿名头像由如下7种，可自行修改步骤5中的avatar: mm；
-![](\assets\images/200113_5.jpg)
+![](/assets/images/200113_5.jpg)

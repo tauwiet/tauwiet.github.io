@@ -7,7 +7,7 @@ tags:
 - 教程
 - GitHub
 ---
-![](\assets\images/180316.jpg)
+![](/assets/images/180316.jpg)
 前几天知名帅哥stormzhang在其公众号共享了一份程序员大礼包，
 即各种教程的PDF文档，其中有一篇《从0开始学习GitHub系列》，
 记录其中的常用命令行指令，以便日后查阅。

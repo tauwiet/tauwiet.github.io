@@ -6,7 +6,7 @@ date: 2017-12-05 15:34:48
 tags:
 - 随笔
 ---
-![](\assets\images/171205.jpg)
+![](/assets/images/171205.jpg)
 刷Ins的时候看到一个2017bestnine的活动，  
 这是网站依据点赞数选出来的Ins Top9，  
 <!--more-->
