@@ -9,4 +9,4 @@ date: {{ date }}
 ---
 test
 <!--more-->
-![](\assets\images/200113_1.jpg)
+![](/assets/images/200113_1.jpg)
