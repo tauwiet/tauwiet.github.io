@@ -71,9 +71,10 @@ tags:
 ```
  在根目录里修改_config.yml配置文件
 ``` bash
- deploy:
+ deploy: 
    type: git
-   repo: github.com/[username]/[username].github.io 
+   repo: git@github.com:[username]/[username].github.io.git
+   branch: master
 ```
 
  最后安装Git部署插件，输入命令：

@@ -3,16 +3,16 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Tauiet‘s Blog
+title: Tauwiet‘s Blog
 subtitle: I feel stupid and contagious.
 description: 记录，感悟
-author: Tauiet
+author: Tauwiet
 language: zh-CN
 timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://sschteng.github.io/
+url: http://tauwiet.github.io/
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -69,7 +69,7 @@ theme: yilia
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@github.com:sschteng/sschteng.github.io.git
+  repo: git@github.com:tauwiet/tauwiet.github.io.git
   branch: master
   
 jsonContent:
