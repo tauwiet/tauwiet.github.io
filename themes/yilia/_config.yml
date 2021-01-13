@@ -98,8 +98,8 @@ disqus: false
 #  client_secret: ''       #client secret
 
 valine: 
- appid: 'rEks6iRF0R5pFQgPxP1cWov3-gzGzoHsz'
- appkey: 'K1VEVX7mhxhyg1cmhqxz6LMz'
+ appid: 'cfnbMzAmH45nnAc6GBxQKdO7-gzGzoHsz'
+ appkey: 'F7PrRb1wkPqMTESyXNYe7Ofr'
  verify: false
  notify: false
  avatar: monsterid
