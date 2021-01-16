@@ -77,6 +77,12 @@ $ cd pulseaudio-module-xrdp-git
 $ makepkg –sri
 $ pulseaudio -D
 ```
+将编译好的pkg/pulseaudio-module-xrdp-git/路径下的文件，参照目录，放到相应位置，包含module-xrdp-sink.so和module-xrdp-source.so
+
+```bash
+$ pulseaudio --kill
+$ pulseaudio --start
+```
 
 有个问题是，每次开机都需要通过pulseaudio -D启动声音，没找到解决办法，尝试过将这一行命令做成脚本开机自启，也没有成功，可能自启脚本配置的有问题。
 
