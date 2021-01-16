@@ -16,7 +16,7 @@
 <meta property="og:description" content="Hyper V中安装Manjaro的过程中，遇到了一些问题，在此记录。">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2020-12-18T14:13:49.000Z">
-<meta property="article:modified_time" content="2021-01-13T10:14:20.346Z">
+<meta property="article:modified_time" content="2021-01-16T03:29:25.902Z">
 <meta property="article:author" content="Tauwiet">
 <meta property="article:tag" content="教程">
 <meta property="article:tag" content="Manjaro">
@@ -203,6 +203,8 @@ ga('send', 'pageview');
 <p>重启系统</p>
 <p>6 安装Pulseaudio启动声音</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">$ <span class="built_in">cd</span> Downloads</span><br><span class="line">$ git <span class="built_in">clone</span> https://aur.archlinux.org/pulseaudio-module-xrdp-git.git</span><br><span class="line">$ <span class="built_in">cd</span> pulseaudio-module-xrdp-git</span><br><span class="line">$ makepkg –sri</span><br><span class="line">$ pulseaudio -D</span><br></pre></td></tr></table></figure>
+<p>将编译好的pkg/pulseaudio-module-xrdp-git/路径下的文件，参照目录，放到相应位置，包含module-xrdp-sink.so和module-xrdp-source.so</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ pulseaudio --<span class="built_in">kill</span></span><br><span class="line">$ pulseaudio --start</span><br></pre></td></tr></table></figure>
 
 <p>有个问题是，每次开机都需要通过pulseaudio -D启动声音，没找到解决办法，尝试过将这一行命令做成脚本开机自启，也没有成功，可能自启脚本配置的有问题。</p>
 <p>7 安装electron-ssr<br>在AUR库中下载libappindicator-sharp，进入目录执行：</p>
